@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Faria</title>
+    <link rel="stylesheet" href="css/estilo.css"> <!-- Caminho corrigido -->
+</head>
+<body>
+    <div class="geral">
+        <div class="top">
+            <div class="logo">Felipe Faria</div>
+            <div class="menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">&#9776;</div> <!-- Ícone do menu (hamburger) -->
+                <ul class="menu-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Carrossel -->
+        <div class="carrosel">
+            <!-- Adicione o conteúdo do carrossel aqui -->
+        </div>
+    </div>
+
+    <!-- Script para o menu hamburger -->
+    <script>
+        function toggleMenu() {
+            var menuList = document.querySelector('.menu-list');
+            menuList.classList.toggle('active'); /* Mostra ou esconde o menu */
+        }
+    </script>
+</body>
+</html>
